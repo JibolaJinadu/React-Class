@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: blue;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: brown;
+    width: 800px;
+    margin: auto;
+}
+
+.App-content{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+
+
+input{
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.List-container{
+     margin-top: 20px;
+}
